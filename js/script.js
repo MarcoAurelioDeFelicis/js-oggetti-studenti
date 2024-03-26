@@ -1,5 +1,6 @@
 console.log ("Oggetti Studenti");
 
+// <MILESTONE 1>
 const Studenti = [
     {
         nome: 'Marco',
@@ -39,5 +40,21 @@ const Studenti = [
 
 Studenti. forEach (studente => {
     console.log(studente.nome, studente.cognome);
-    
 })
+
+// </MILESTONE 1>
+
+// <MILESTONE 2>
+const nuovoNome = prompt ('inserisci il nome del nuovo studente')
+console.log (nuovoNome)
+
+const nuovoCognome = prompt ('inserisci il congnome del nuovo alunno')
+console.log (nuovoCognome)
+
+const nuovaEtà = prompt ("inserisci l'età del nuovo alunno")
+console.log (nuovaEtà)
+
+
+
+
+// </MILESTONE 2>
