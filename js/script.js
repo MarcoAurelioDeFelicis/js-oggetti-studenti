@@ -30,14 +30,12 @@ const Studenti = [
 ]
 
 // ciclo for
-
 // for (let i = 0; i < Studenti.length; i++) {
 //     const studente = Studenti[i];
 //     console.log (Studenti[i].nome , Studenti[i].cognome)
 // }
 
 // forEach
-
 Studenti. forEach (studente => {
     console.log(studente.nome, studente.cognome);
 })
@@ -45,16 +43,35 @@ Studenti. forEach (studente => {
 // </MILESTONE 1>
 
 // <MILESTONE 2>
+
 const nuovoNome = prompt ('inserisci il nome del nuovo studente')
-console.log (nuovoNome)
+//console.log (nuovoNome)
 
 const nuovoCognome = prompt ('inserisci il congnome del nuovo alunno')
-console.log (nuovoCognome)
+//console.log (nuovoCognome)
 
 const nuovaEtà = prompt ("inserisci l'età del nuovo alunno")
-console.log (nuovaEtà)
+//console.log (nuovaEtà)
 
+let nuovoAlunno = {
+    nome: nuovoNome,
+    cognome: nuovoCognome,
+    età: nuovaEtà
+}
+//console.log (nuovoAlunno)
 
+Studenti.push (nuovoAlunno)
+
+//ciclo for
+// for (let i = 0; i < Studenti.length; i++) {
+//      const studente = Studenti[i];
+//      console.log (Studenti[i].nome , Studenti[i].cognome)
+//     }
+
+// forEach
+Studenti. forEach (studente => {
+    console.log(studente.nome, studente.cognome);
+})
 
 
 // </MILESTONE 2>
