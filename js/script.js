@@ -28,3 +28,13 @@ const Studenti = [
     },
 ]
 
+// ciclo for
+
+for (let i = 0; i < Studenti.length; i++) {
+    const studente = Studenti[i];
+    console.log (Studenti[i].nome , Studenti[i].cognome)
+
+}
+
+// forEach
+
